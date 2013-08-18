@@ -1,3 +1,4 @@
-Meteor.publish('posts', function() {
-	return Posts.find();
+// Publish all posts to server
+Meteor.publish('posts', function(){
+  return Posts.find();
 });
